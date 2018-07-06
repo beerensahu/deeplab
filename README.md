@@ -18,6 +18,8 @@ https://github.com/tensorflow/models
 
 ## Pre-trained model
 We have used the the frozen graph trained on PASCAL VOC 2012 Semantic Segmentation Dataset.
-You can down load from [download.tensorflow.org/models/deeplabv3_pascal_train_aug_2018_01_04.tar.gz](download.tensorflow.org/models/deeplabv3_pascal_train_aug_2018_01_04.tar.gz)
+You can down load this from [download.tensorflow.org/models/deeplabv3_pascal_train_aug_2018_01_04.tar.gz](download.tensorflow.org/models/deeplabv3_pascal_train_aug_2018_01_04.tar.gz)
+
+On extracting the above frozen graph, you will get a file named "frozen_inference_graph.pb" inside it. Copy this file to deeplab/datasets/init_models/.
 
 For more details visit: [Blog-post](https://beerensahu.wordpress.com/category/deep-learning/deeplab/)
